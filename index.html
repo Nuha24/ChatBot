@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TroiBot</title>
+
+    <!-- link to CSS File -->
+    <link rel="stylesheet" href="./CssCode.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="desc">
+            <h1 class="text">Troibot</h1>
+            <p>A Bot made with HTML,CSS,JavaScript. </p>
+            <button id="init">START CHAT</button>
+    </div>
+    <div>
+        <img src="/chatbot.png" alt="" class="bot-img">
+    </div>
+</div>
+<div id="test" style="position: fixed;top: 4rem;right: 8rem;display: none;">
+    <div class="child" id="troibot">
+        <div class="header">
+            <div class="h-child">
+                <img src="/chatbot1.jpg" alt="avatar" id="avatar">
+                <div>
+                    <span class="name">TroiBot</span>
+                    <br>
+                    <span style="color:rgb(121, 230, 12)">Online</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+        </div>
+        <div id="chat-box"> </div>
+        <div class="footer">
+            <span>Choose Option</span>
+        </div>
+    </div>
+</div>
+    <!-- link to Javascript file  -->
+    <script src="/javacode.js"></script>
+</body>
+</html>
